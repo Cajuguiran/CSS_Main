@@ -1,0 +1,39 @@
+body {
+    background: whitesmoke;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.topnav {
+    padding: 10px;
+    overflow: hidden;
+    background-color: gray;
+    }
+    
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: solid;
+    font-size: 20px;
+    }
+
+.topnav a:hover {
+        background-color: wheat;
+        color: black;
+    }   
+    
+.topnav a.active {
+    background-color: rgb(131, 7, 7);
+    color: white;
+    }
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
