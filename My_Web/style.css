@@ -1,39 +1,58 @@
 body {
     background: whitesmoke;
-    margin: auto;
+    margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     }
 
+.img{
+    border-radius: 10px;
+    width: 150px;
+}
+
 .topnav {
+    position: fixed;
+    top: 0;
+    width: 99%;
     padding: 10px;
     overflow: hidden;
-    background-color: gray;
+    background-color: rgb(82, 82, 82);
     }
     
 .topnav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
     float: right;
     color: white;
     text-align: center;
-    padding: 30px 30px;
-    text-decoration: solid;
+    padding: 20px 20px;
+    text-decoration: none;
     font-size: 20px;
     }
 
 .topnav a:hover {
+        border-radius: 10px;
         background-color: wheat;
         color: black;
     }   
     
 .topnav a.active {
+    border-radius: 10px;
     background-color: rgb(131, 7, 7);
-    color: white;
+    color: rgb(255, 255, 255);
+    }
+
+.main {
+        padding: 25px;
+        margin-top: 50px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
 p{
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-}
+    }
 
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    }
